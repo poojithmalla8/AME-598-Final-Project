@@ -1,6 +1,6 @@
 # AME-598-Final-Project- Crop Prediction System Using IoT
 
-# Project Title
+# Crop Prediction System Using IoT
 
 One Paragraph of project description goes here
 
