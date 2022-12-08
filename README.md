@@ -28,12 +28,12 @@ Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-data
 ## Deployment
 ![Project_Workflow](https://user-images.githubusercontent.com/111541172/206347884-0f0be09e-f16c-44a4-89de-8a0bfdbfa9cc.png)
 
-● Hardware Deployment: For the purpose of collecting soil data, we are using the Lily-Go
+* Hardware Deployment: For the purpose of collecting soil data, we are using the Lily-Go
 Highgrow sensor, which has an ESP 32 chip, DHT11 (Temperature and humidity sensor),
 soil moisture sensor, and BH1750 (Ambient Light Sensor)
-● Server Interface: Tracking live soil data using a webpage and sending this data to the
+* Server Interface: Tracking live soil data using a webpage and sending this data to the
 cloud server.
-● ML Model: Finally we retrieve the collected data from the cloud and run it through an
+* ML Model: Finally we retrieve the collected data from the cloud and run it through an
 ML model. This model helps us in predicting the suitable crop based on soil data
 collected.
 
