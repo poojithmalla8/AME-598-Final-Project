@@ -9,10 +9,10 @@ type of crop based on soil properties would help in reducing production loss and
 
 | S.No. | Title |
 |-----:|-----------|
-|     1| Introduction|
-|     2| Method    |
-|     3| Process Flow       |
-|     4| ML Model    |
+|     1| Prerequisites|
+|     2| Components    |
+|     3| Deployment       |
+|     4| Working    |
 |     5| Results       |
 
 ### Prerequisites
@@ -24,6 +24,12 @@ Ardiono:- https://www.arduino.cc/en/software
 Python:- https://www.python.org/downloads/
 Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 ```
+
+
+## Components
+
+* [LilyGO-Highgrow Sensor]([http://www.dropwizard.io/1.0.2/docs/](https://www.aliexpress.us/item/2251832629468148.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US)) - Sensor to get plant data
+* [pH Sensor](https://www.vernier.com/product/ph-sensor/) - To get pH Data
 
 ## Deployment
 ![Project_Workflow](https://user-images.githubusercontent.com/111541172/206347884-0f0be09e-f16c-44a4-89de-8a0bfdbfa9cc.png)
@@ -37,19 +43,24 @@ cloud server.
 ML model. This model helps us in predicting the suitable crop based on soil data
 collected.
 
-## Built With
+## Working
+* Sensor Data and Server:- This code is written in C++ and javascript using the Platform IO library to flash the code to the
+hardware. The sensor is interfaced using a UART bus and communicated using the I2C protocol.
+For the webpage to check real-time sensor data, we are using the ESP DASH library, which is a
+UI library for ESP 32 and ESP 8266 microcontrollers. The classroom lectures helped me in
+creating the environment, understand I2C communication, and create a client/server model using
+HTTP. For this model, we are using HTTP instead of the website, majorly because of the firewall
+by the Windows OS while deploying the WebSocket server. I personally recommend the
+WebSocket server as it provides a faster connection and faster transfer of data with minimal data
+loss compared to the HTTP server.
+* ML Model:- This code is written in Python, using pandas, NumPy, sklearn, and tree libraries. The code ideally
+retrieves the data from the server using pandas and trains the data using the sklearn library and
+provides a decision tree classification using the tree library. Finally, the code provides the crop
+that can be harvested and also estimates the rate of the correctness of the prediction made. This
+course helped in understanding the use of IoT and its integration with ML/AI models to refine
+the result. For this project, I used the Crop Prediction Dataset which has the crop data of 2200
+different soil conditions, and trained it using the sklearn library
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
