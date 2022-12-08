@@ -24,11 +24,31 @@ Ardiono:- https://www.arduino.cc/en/software
 Python:- https://www.python.org/downloads/
 Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 ```
+## Using **Arduino IDE**
+
+1. Install the current upstream Arduino IDE at the 1.8 level or later. The current version is at the [Arduino website](http://www.arduino.cc/en/main/software).
+2. Start Arduino and open Preferences window. In additional board manager add url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json .separating them with commas.
+3. Copy or move the folder in the **lib** directory to `<C:\Users\Your User Name\Documents\Arduino\libraries>` 
+4. Board select `Tools` -> `Board` -> `ESP32 Dev Module`
+5. In `configuration.h`, you can select hotspots and connect to wireless WiFi, and you can change and add sensors. For details, please refer to `configuration.h` 
+6. Build and Upload the sketch
+7. View the obtained ip address in the serial output,  enter the ip address in the browser to view the data.
+
+## Using **PlatformIO**
+
+1. Install [VSCODE](https://code.visualstudio.com/) and [Python](https://www.python.org/)
+2. Search for the PlatformIO plug-in in the VSCODE extension and install it.
+3. After the installation is complete and the reload is completed, there will be a small house icon in the lower left corner. Click to display the Platformio IDE home page
+4. Go to file - > `Open folder` - > Select the `LilyGo-HiGrow` 
+5. Click the (√) symbol in the lower left corner to compile (→) for upload.
+
 
 
 ## Components
 * [LilyGO-Highgrow Sensor](https://www.aliexpress.us/item/2251832629468148.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US) - Sensor to get plant data
-* [pH Sensor](https://www.vernier.com/product/ph-sensor/) - To get pH Data
+![](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg)
+
+![](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img2.jpg)* 
 
 ## Deployment
 ![Project_Workflow](https://user-images.githubusercontent.com/111541172/206347884-0f0be09e-f16c-44a4-89de-8a0bfdbfa9cc.png)
@@ -73,6 +93,10 @@ Real-time Soil Data
 Results after running the ML model and predicting the suitable crop based on the data taken from the data set.
 
 ## References
-
+#### &ensp;[Installing UART Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+#### &ensp;[Lilygo Highgrow](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow) 
+#### &ensp;[Crop Prediction](https://github.com/shan515/AI-Based_Crop-Predictor_App)
+#### &ensp;[Two-way communication between Python 3 and Unity (C#) - Y. T. Elashry](https://github.com/Siliconifier/Python-Unity-Socket-Communication.git)
+#### &ensp;[Writing to EEPROM](https://roboticsbackend.com/arduino-write-string-in-eeprom/)
 
 
