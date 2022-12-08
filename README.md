@@ -20,7 +20,9 @@ type of crop based on soil properties would help in reducing production loss and
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Ardiono:- https://www.arduino.cc/en/software
+Python:- https://www.python.org/downloads/
+Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 ```
 
 ### Installing
