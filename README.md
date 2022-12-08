@@ -2,14 +2,11 @@
 
 Table of Contents
 
-| Rank | Languages |
+| S.No. | Title |
 |-----:|-----------|
-|     1| Javascript|
-|     2| Python    |
-| SQL       |
+|     1| Introduction|
+|     2| Method    |
+|     3| Process Flow       |
+|     4| ML Model    |
+|     5| Results       |
 
-Introdution
-Method
-Process Flow Diagram
-ML Model
-Results
