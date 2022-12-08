@@ -69,4 +69,5 @@ Real-time Soil Data
 ![image](https://user-images.githubusercontent.com/111541172/206350210-413f8c8e-3c29-4dfd-8103-80f8e2a1134c.png)
 ![image](https://user-images.githubusercontent.com/111541172/206350220-f93271ea-79b7-4c83-8067-1e4956d6b4cb.png)
 ![image](https://user-images.githubusercontent.com/111541172/206350236-841424e4-21bb-4d29-bfe7-3951203593e0.png)
+
 Results after running the ML model and predicting the suitable crop based on the data taken from the data set.
