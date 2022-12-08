@@ -61,18 +61,12 @@ the result. For this project, I used the Crop Prediction Dataset which has the c
 different soil conditions, and trained it using the sklearn library
 
 
-## Authors
+## Results
+![image](https://user-images.githubusercontent.com/111541172/206350152-3714c865-0c44-43d6-84e6-db88a0189b69.png)
+Real-time Soil Data
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+![image](https://user-images.githubusercontent.com/111541172/206350192-cfbb2f82-bb5c-4337-8bdf-147f68b5dcad.png)
+![image](https://user-images.githubusercontent.com/111541172/206350210-413f8c8e-3c29-4dfd-8103-80f8e2a1134c.png)
+![image](https://user-images.githubusercontent.com/111541172/206350220-f93271ea-79b7-4c83-8067-1e4956d6b4cb.png)
+![image](https://user-images.githubusercontent.com/111541172/206350236-841424e4-21bb-4d29-bfe7-3951203593e0.png)
+Results after running the ML model and predicting the suitable crop based on the data taken from the data set.
