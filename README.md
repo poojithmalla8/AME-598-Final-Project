@@ -48,7 +48,7 @@ Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-data
 * [LilyGO-Highgrow Sensor](https://www.aliexpress.us/item/2251832629468148.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US) - Sensor to get plant data
 ![](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg)
 
-![](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img2.jpg)* 
+![](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img2.jpg)
 
 ## Deployment
 ![Project_Workflow](https://user-images.githubusercontent.com/111541172/206347884-0f0be09e-f16c-44a4-89de-8a0bfdbfa9cc.png)
