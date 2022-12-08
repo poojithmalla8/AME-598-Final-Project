@@ -28,7 +28,7 @@ Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-data
 
 ## Components
 
-* [LilyGO-Highgrow Sensor]([http://www.dropwizard.io/1.0.2/docs/](https://www.aliexpress.us/item/2251832629468148.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US)) - Sensor to get plant data
+* [LilyGO-Highgrow Sensor](http://www.dropwizard.io/1.0.2/docs/](https://www.aliexpress.us/item/2251832629468148.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US) - Sensor to get plant data
 * [pH Sensor](https://www.vernier.com/product/ph-sensor/) - To get pH Data
 
 ## Deployment
