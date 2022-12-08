@@ -96,7 +96,5 @@ Results after running the ML model and predicting the suitable crop based on the
 #### &ensp;[Installing UART Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 #### &ensp;[Lilygo Highgrow](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow) 
 #### &ensp;[Crop Prediction](https://github.com/shan515/AI-Based_Crop-Predictor_App)
-#### &ensp;[Two-way communication between Python 3 and Unity (C#) - Y. T. Elashry](https://github.com/Siliconifier/Python-Unity-Socket-Communication.git)
-#### &ensp;[Writing to EEPROM](https://roboticsbackend.com/arduino-write-string-in-eeprom/)
 
 
