@@ -25,47 +25,17 @@ Python:- https://www.python.org/downloads/
 Data Set:- https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
+![Project_Workflow](https://user-images.githubusercontent.com/111541172/206347884-0f0be09e-f16c-44a4-89de-8a0bfdbfa9cc.png)
 
-Add additional notes about how to deploy this on a live system
+● Hardware Deployment: For the purpose of collecting soil data, we are using the Lily-Go
+Highgrow sensor, which has an ESP 32 chip, DHT11 (Temperature and humidity sensor),
+soil moisture sensor, and BH1750 (Ambient Light Sensor)
+● Server Interface: Tracking live soil data using a webpage and sending this data to the
+cloud server.
+● ML Model: Finally we retrieve the collected data from the cloud and run it through an
+ML model. This model helps us in predicting the suitable crop based on soil data
+collected.
 
 ## Built With
 
